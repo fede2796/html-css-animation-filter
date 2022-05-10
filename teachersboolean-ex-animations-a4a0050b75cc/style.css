@@ -168,7 +168,7 @@
 @keyframes top13 {
     0%{
         top: -10%;
-        left: 10px;
+        left: 0;
     }
     25%{
         top: -10px;
@@ -197,7 +197,7 @@
 @keyframes bot13 {
     0%{
         bottom: -10%;
-        right: 10px;
+        right: 0;
     }
     25%{
         bottom: -10px;
