@@ -103,6 +103,15 @@
 }
 .ex-11-icon {
     font-size: 60px;
+    animation: spinicon 5s linear infinite;
+}
+@keyframes spinicon {
+    0%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(240deg);
+    }
 }
 .ex-12-button, .ex-13-button {
     position: relative;
@@ -132,4 +141,23 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+}
+.ex-12-top-white{
+    animation: box1 5s linear;
+}
+@keyframes box1 {
+    25%{
+        top: -10px;
+        left:  calc(100% - 60px);
+    }
+}
+.ex-12-bottom-white{
+    animation: box2 5s linear;
+}
+@keyframes box2 {
+    25%{
+        bottom: -10px;
+        right: calc(100% - 60px);
+
+    }
 }
